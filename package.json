@@ -36,7 +36,8 @@
         "url": "https://github.com/StartBootstrap/startbootstrap-agency.git"
     },
     "dependencies": {
-        "bootstrap": "5.2.3"
+        "bootstrap": "5.2.3",
+        "caniuse-lite": "^1.0.30001696"
     },
     "devDependencies": {
         "autoprefixer": "10.4.14",
