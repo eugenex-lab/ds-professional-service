@@ -8,7 +8,6 @@
     background-color: $gray-900;
 
     .navbar-toggler {
-
         padding: 0.75rem;
         font-size: 0.75rem;
         font-family: $headings-font-family;
@@ -33,7 +32,7 @@
             .nav-link {
                 font-family: $headings-font-family;
                 font-size: 0.95rem;
-                color: $white;
+                color: #cdd2d6;
                 letter-spacing: $headings-letter-spacing;
 
                 &.active,

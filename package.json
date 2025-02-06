@@ -1,6 +1,7 @@
 {
     "title": "Agency",
     "name": "startbootstrap-agency",
+    "homepage": "http://dspsng.com/lander",
     "version": "7.0.12",
     "scripts": {
         "build": "npm run clean && npm run build:pug && npm run build:scss && npm run build:scripts && npm run build:assets",
@@ -21,7 +22,6 @@
         "theme",
         "template"
     ],
-    "homepage": "https://startbootstrap.com/theme/agency",
     "bugs": {
         "url": "https://github.com/StartBootstrap/startbootstrap-agency/issues",
         "email": "feedback@startbootstrap.com"
