@@ -29,7 +29,7 @@ html(lang='en')
         nav#mainNav.navbar.navbar-expand-lg.navbar-dark.fixed-top
             .container
                 a.navbar-brand(href='#page-top')
-                    img(src='assets/img/logo.jpeg', alt='...' , width='70px' , height='60px')
+                     img(src='assets/img/logo.jpg', alt='...', style='width: 64px; height: 64px; object-fit: contain;')
                 button.navbar-toggler(type='button', data-bs-toggle='collapse', data-bs-target='#navbarResponsive', aria-controls='navbarResponsive', aria-expanded='false', aria-label='Toggle navigation')
                     | Menu
                     i.fas.fa-bars.ms-1
@@ -41,7 +41,7 @@ html(lang='en')
                         li.nav-item
                             a.nav-link(href='#about') About
                         li.nav-item
-                            a.nav-link(href='#team') Team
+                            a.nav-link(href='#team') Awards
                         li.nav-item
                             a.nav-link(href='#contact') Contact
         // Masthead
@@ -66,7 +66,7 @@ html(lang='en')
                     i.fas.fa-building.fa-stack-1x.fa-inverse
                 h4.my-3 Audit
                 p.text-muted
-                            | Ensuring financial accuracy and compliance with industry standards.
+                            | Ensuring compliance with applicable IFRS, IAS, and Audit standards.
 
             .col-md-3
                 span.fa-stack.fa-4x
@@ -92,44 +92,44 @@ html(lang='en')
             h4.my-3 Financial Advisory
             p.text-muted
                 | Strategic financial guidance to drive growth and long-term stability.
-     
+
         // About
         section#about.page-section
             .container
                 .text-center
                     h2.section-heading.text-uppercase About
-                    h3.section-subheading.text-muted 
+                    h3.section-subheading.text-muted
                 ul.timeline
                     li
                         .timeline-image
                             img.rounded-circle.img-fluid(src='assets/img/about/1.jpg', alt='...')
                         .timeline-panel
                             .timeline-heading
-                                h4 2016 - 2017 
+                                h4 2016
                                 h4.subheading Our Humble Beginnings
                             .timeline-body
                                 p.text-muted
-                                    | Registered the business in December 2016 and began serving clients.
+                                    | Registered the business in 2016 and began serving client .
                     li.timeline-inverted
                         .timeline-image
                             img.rounded-circle.img-fluid(src='assets/img/about/2.jpg', alt='...')
                         .timeline-panel
                             .timeline-heading
                                 h4 2019
-                                h4.subheading Milestone Achievement 
+                                h4.subheading Milestone Achievement
                             .timeline-body
                                 p.text-muted
-                                    | Served 90+ businesses, delivering top-tier advisory and significant tax savings.
+                                    | Served 50+ businesses, delivering top-tier Audit, Advisory and Tax services.
                     li.timeline
                         .timeline-image
                             img.rounded-circle.img-fluid(src='assets/img/about/3.jpg', alt='...')
                         .timeline-panel
                             .timeline-heading
-                                h4 2023+
+                                h4 2025+
                                 h4.subheading Industry Leadership
                             .timeline-body
                                 p.text-muted
-                                    | Strengthening our position as a key player in the advisory space.
+                                    | Strengthening our position as a key player in our industry, and a top choice for clients seeking great value.
                     li.timeline-inverted
                         .timeline-image
                             h4
@@ -139,67 +139,90 @@ html(lang='en')
                                 br
                                 | Value!
 
-        // Team
+
+
+
         section#team.page-section.bg-light
-            .container
-                .text-center
-                    h2.section-heading.text-uppercase Our  Team
-                    h3.section-subheading.text-muted 
-                .row
-                    .col-lg-4
-                        .team-member
-                            img.mx-auto.rounded-circle(src='assets/img/team/1.jpeg', alt='...')
-                            h4 Raju Afolabi
-                            p.text-muted Partner
-                            //- a.btn.btn-dark.btn-social.mx-2(href='#!', aria-label='Parveen Anand Twitter Profile')
-                            //-     i.fab.fa-twitter
-                            //- a.btn.btn-dark.btn-social.mx-2(href='#!', aria-label='Parveen Anand Facebook Profile')
-                            //-     i.fab.fa-facebook-f
-                            //- a.btn.btn-dark.btn-social.mx-2(href='#!', aria-label='Parveen Anand LinkedIn Profile')
-                            //-     i.fab.fa-linkedin-in
-                    .col-lg-4
-                        .team-member
-                            img.mx-auto.rounded-circle(src='assets/img/team/2.jpeg', alt='...')
-                            h4 Saheed Onibudo
-                            p.text-muted Partner
-                            //- a.btn.btn-dark.btn-social.mx-2(href='#!', aria-label='Diana Petersen Twitter Profile')
-                            //-     i.fab.fa-twitter
-                            //- a.btn.btn-dark.btn-social.mx-2(href='#!', aria-label='Diana Petersen Facebook Profile')
-                            //-     i.fab.fa-facebook-f
-                            //- a.btn.btn-dark.btn-social.mx-2(href='#!', aria-label='Diana Petersen LinkedIn Profile')
-                            //-     i.fab.fa-linkedin-in
-                    .col-lg-4
-                        .team-member
-                            img.mx-auto.rounded-circle(src='assets/img/team/3.jpeg', alt='...')
-                            h4 Idris Adeniyi
-                            p.text-muted Partner
-                            //- a.btn.btn-dark.btn-social.mx-2(href='#!', aria-label='Larry Parker Twitter Profile')
-                            //-     i.fab.fa-twitter
-                            //- a.btn.btn-dark.btn-social.mx-2(href='#!', aria-label='Larry Parker Facebook Profile')
-                            //-     i.fab.fa-facebook-f
-                            //- a.btn.btn-dark.btn-social.mx-2(href='#!', aria-label='Larry Parker LinkedIn Profile')
-                            //-     i.fab.fa-linkedin-in
-                .row
-                    .col-lg-8.mx-auto.text-center
-                        p.large.text-muted
-                            | 
+          h2.section-heading.text-uppercase.pb-5 AWARDS <i class="fa fa-trophy" aria-hidden="true"></i>
+            .row.text-center
+          div.team__format-container
+            div.ag-courses-item_link
+              div.ag-courses-item_bg
+              div.ag-courses-item_title Tax Planning Firm of the Year in Nigeria (2017)
+              div.ag-courses-item_date-box
+                | 2018:
+                span.ag-courses-item_date Finance Monthly Taxation Awards
+
+              div.ag-courses_item
+            div.ag-courses-item_link
+              div.ag-courses-item_bg
+              div.ag-courses-item_title  Tax Planning Firm of the Year in Nigeria (2017)
+              div.ag-courses-item_date-box
+                | 2018:
+                span.ag-courses-item_date Private Clients Awards 
+
+              div.ag-courses_item
+            div.ag-courses-item_link
+              div.ag-courses-item_bg
+              div.ag-courses-item_title Tax Law Firm of the Year in Nigeria (2017)
+              div.ag-courses-item_date-box
+                | 2018:
+                span.ag-courses-item_date  Finance Monthly Law Awards
+
+              div.ag-courses_item
+            div.ag-courses-item_link
+              div.ag-courses-item_bg
+              div.ag-courses-item_title Nomination for Volunteer Consultant of the Year (2017)
+              div.ag-courses-item_date-box
+                | 
+                span.ag-courses-item_date FATE Foundation
+
+              div.ag-courses_item
+          
+
 
         // Clients
-        div.py-5
-            .container
-                .row.align-items-center
-                    .col-md-3.col-sm-6.my-3
-                        a(href='#!')
-                            img.img-fluid.img-brand.d-block.mx-auto(src='assets/img/logos/microsoft.svg', alt='...', aria-label='Microsoft Logo')
-                    .col-md-3.col-sm-6.my-3
-                        a(href='#!')
-                            img.img-fluid.img-brand.d-block.mx-auto(src='assets/img/logos/google.svg', alt='...', aria-label='Google Logo')
-                    .col-md-3.col-sm-6.my-3
-                        a(href='#!')
-                            img.img-fluid.img-brand.d-block.mx-auto(src='assets/img/logos/facebook.svg', alt='...', aria-label='Facebook Logo')
-                    .col-md-3.col-sm-6.my-3
-                        a(href='#!')
-                            img.img-fluid.img-brand.d-block.mx-auto(src='assets/img/logos/ibm.svg', alt='...', aria-label='IBM Logo')
+        div.py-5.overflow-hidden
+            div
+                div.marquee
+                    .marquee-content
+                        .col-md-3.col-sm-6.my-3
+                            a(href='#!')
+                                img.img-fluid.img-brand.d-block.mx-auto(src='assets/img/logos/1.png', alt='...', aria-label='Microsoft Logo')
+                        .col-md-3.col-sm-6.my-3
+                            a(href='#!')
+                                img.img-fluid.img-brand.d-block.mx-auto(src='assets/img/logos/2.png', alt='...', aria-label='Google Logo')
+                        .col-md-3.col-sm-6.my-3
+                            a(href='#!')
+                                img.img-fluid.img-brand.d-block.mx-auto(src='assets/img/logos/3.png', alt='...', aria-label='Facebook Logo')
+                        .col-md-3.col-sm-6.my-3
+                            a(href='#!')
+                                img.img-fluid.img-brand.d-block.mx-auto(src='assets/img/logos/4.png', alt='...', aria-label='IBM Logo')
+                        .col-md-3.col-sm-6.my-3
+                            a(href='#!')
+                                img.img-fluid.img-brand.d-block.mx-auto(src='assets/img/logos/5.png', alt='...', aria-label='Microsoft Logo')
+                        .col-md-3.col-sm-6.my-3
+                            a(href='#!')
+                                img.img-fluid.img-brand.d-block.mx-auto(src='assets/img/logos/6.png', alt='...', aria-label='Google Logo')
+                        .col-md-3.col-sm-6.my-3
+                            a(href='#!')
+                                img.img-fluid.img-brand.d-block.mx-auto(src='assets/img/logos/7.svg', alt='...', aria-label='Facebook Logo')
+                        .col-md-3.col-sm-6.my-3
+                            a(href='#!')
+                                img.img-fluid.img-brand.d-block.mx-auto(src='assets/img/logos/8.png', alt='...', aria-label='IBM Logo')
+                        .col-md-3.col-sm-6.my-3
+                            a(href='#!')
+                                img.img-fluid.img-brand.d-block.mx-auto(src='assets/img/logos/9.png', alt='...', aria-label='Microsoft Logo')
+                        .col-md-3.col-sm-6.my-3
+                            a(href='#!')
+                                img.img-fluid.img-brand.d-block.mx-auto(src='assets/img/logos/10.png', alt='...', aria-label='Google Logo')
+                        .col-md-3.col-sm-6.my-3
+                            a(href='#!')
+                                img.img-fluid.img-brand.d-block.mx-auto(src='assets/img/logos/11.png', alt='...', aria-label='Facebook Logo')
+                        .col-md-3.col-sm-6.my-3
+                            a(href='#!')
+                                img.img-fluid.img-brand.d-block.mx-auto(src='assets/img/logos/12.svg',  alt='...', aria-label='IBM Logo')
+
 
         // Contact
         //- section#contact.page-section
@@ -207,16 +230,16 @@ html(lang='en')
         //-         .text-center
         //-             h2.section-heading.text-uppercase Contact Us
         //-         .h3.section-subheading.text-.text-white
-        //-             p 
-        //-                 strong Phone: 
+        //-             p
+        //-                 strong Phone:
         //-                 | +234 123 456 7890
-        //-             p 
-        //-                 strong Email: 
+        //-             p
+        //-                 strong Email:
         //-                 | info@nigeriancompany.com
-        //-             p 
-        //-                 strong Address: 
+        //-             p
+        //-                 strong Address:
         //-                 | 123 Lagos Street, Victoria Island, Lagos, Nigeria
-                    
+
 
         //-         // * * * * * * * * * * * * * * *
         //-         // * * SB Forms Contact Form * *
@@ -309,7 +332,7 @@ div.fixed#contact
   // Footer
   footer.text-center.text-lg-start.text-white(style="background-color: #1c2331")
     // Section: Social media
-    section.d-flex.justify-content-between.p-4(style="background-color: #436ea7")
+    section.d-flex.justify-content-between.p-4(style="background-color: #1576ba")
       // Left
       div.me-5.container
         | Get connected with us on social networks:
@@ -340,27 +363,27 @@ div.fixed#contact
           .col-md-3.col-lg-4.col-xl-3.mx-auto.mb-4
             // Content
             h6.text-uppercase.fw-bold DS Professional Services
-            hr.mb-4.mt-0.d-inline-block.mx-auto(style="width: 60px; background-color: #436ea7; height: 2px")
+            hr.mb-4.mt-0.d-inline-block.mx-auto(style="width: 60px; background-color: #1576ba; height: 2px")
             p DS Professional Services is a trusted advisory firm dedicated to delivering expert financial, tax, and business consulting solutions.
           // Grid column
 
           // Grid column
           .col-md-2.col-lg-2.col-xl-2.mx-auto.mb-4
             // Links
-          
+
           // Grid column
 
           // Grid column
           .col-md-3.col-lg-2.col-xl-2.mx-auto.mb-4
             // Links
-       
+
           // Grid column
 
           // Grid column
           .col-md-4.col-lg-3.col-xl-3.mx-auto.mb-md-0.mb-4
             // Links
             h6.text-uppercase.fw-bold Contact
-            hr.mb-4.mt-0.d-inline-block.mx-auto(style="width: 60px; background-color: #436ea7; height: 2px")
+            hr.mb-4.mt-0.d-inline-block.mx-auto(style="width: 60px; background-color: #1576ba; height: 2px")
             p
               i.fas.fa-home.mr-3
               | 15A, Sulaimon Adekanmbi Close, Off Jinadu Street, Igbo Efon, Lagos
@@ -378,7 +401,6 @@ div.fixed#contact
     // Copyright
     div.text-center.p-3(style="background-color: rgba(0, 0, 0, 0.2)")
       | © 2025 Copyright
-      a.text-white(href="") 
+      a.text-white(href="")
     // Copyright
 
-      
