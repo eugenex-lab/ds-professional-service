@@ -10856,6 +10856,20 @@ p {
   position: relative;
 }
 
+@media only screen and (max-width: 767px) {
+  .img-brand {
+    height: 0.75rem;
+    -o-object-fit: contain;
+       object-fit: contain;
+  }
+  .marquee-content {
+    display: flex;
+    animation: marquee 60s linear infinite;
+    gap: 23px;
+    width: -moz-max-content;
+    width: max-content;
+  }
+}
 .marquee-content {
   display: flex;
   animation: marquee 60s linear infinite;
@@ -10867,7 +10881,7 @@ p {
 
 @keyframes marquee {
   from {
-    transform: translateX(100%);
+    transform: translateX(30%);
   }
   to {
     transform: translateX(-100%);
